@@ -1,0 +1,6 @@
+model เก็บ file mapping class กับ table ใน database
+node_modules เก็บ dependencies ต่าง ๆ
+routes เก็บ file routing url ของ api
+util เก็บ file utility ต่าง ๆ ที่สร้างไว้ใช้งานใน Project ในนี้เราจะใช้เก็บไฟล์ connection และ constant ในการต่อ database และส่วนค่าอื่น ๆ ถ้ามีการเพิ่มเติม
+app.js เป็น file สร้าง server run และกำหนดค่า config ของ server ถือเป็นไฟล์ใช้งานหลัก
+package.json เป็น file จัดการ dependencies จะสัมพันธ์กับ node_modules เพราะเป็นผลจากการสั่ง install file นี้
